@@ -1,20 +1,21 @@
-var randomNumber =Math.floor(Math.random()*101);
+ // declaration des variables 
+ var randomNumber;
+ var userInput;
+ var message;
+ // entrer: saiser 
+  randomNumber = Math.floor(Math.random() * 100);
+  userInput = prompt("Entrez un numéro");
+ // traitement 
+ var n = parseInt(userInput);
+ if (randomNumber > userInput) {
 
-var userInput = prompt("deviner un nombre entre 1 et 100");
-var winMessage = "Félicitations, vous avez gagné après";
-var lostMessage = "c'est rate !!";
+     message = "il est supérieur à " + " " + userInput;
 
-var itisSmall = "c'est plus petit que " + userInput + ",essayez"
-var itisBigger = "c'est plus grand que " + userInput + ",essayez"
+ }
 
-function isCorrect() {
-    if (userInput==randomNumber){
-        result = winMessage;
-    } else if (userInput>randomNumber){
-        result = itisSmall
-    }else if (userInput<randomNumber){
-        result = itisBigger
-    }
-    console.log(result)
-}
-isCorrect()
+ else{
+
+     message = "il est plus petit que " + " " + userInput;
+ }
+ // sortie: Affichage
+ alert(message);
