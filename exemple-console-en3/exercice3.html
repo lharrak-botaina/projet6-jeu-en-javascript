@@ -1,26 +1,35 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex3</title>
+    <title>Document</title>
+    <script>
+        // declaration des variables 
+        var randomNumber;
+        var userInput;
+        var message;
+        // entrer: saiser 
+         randomNumber = Math.floor(Math.random() * 100);
+         userInput = prompt("Entrez un numéro");
+        // traitement 
+        var n = parseInt(userInput);
+        if (randomNumber > userInput) {
+
+            message = "il est supérieur à " + " " + userInput;
+
+        }
+
+        else{
+
+            message = "il est plus petit que " + " " + userInput;
+        }
+        // sortie: Affichage
+        alert(message);
+    </script>
 </head>
 <body>
-    <script>
-        var randomNumber = Math.floor(Math.random() * 100)
-
-        var reuslt;
-        var userInput = 30
-        var itIsSmall = "C'est plus petit que " + userInput + ", essayez plus"
-        var itIsBigger = "C'est plus grand que " + userInput + ", essayez plus"
-            if (userInput == randomNumber){
-                 reuslt = winMessage;
-            } else if (userInput > randomNumber){
-                    reuslt = itIsSmall
-            } else if (userInput < randomNumber){
-                    reuslt = itIsBigger
-                }
-        alert(reuslt)
-    </script>
+    
 </body>
 </html>
