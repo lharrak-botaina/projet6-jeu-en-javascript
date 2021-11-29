@@ -1,0 +1,46 @@
+
+html{
+    background-color: #545258;
+}
+#container{
+    background-color: rgb(11, 135, 184);
+    border: rgb(255, 255, 255) 5px solid;
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+p{
+    color: #ffff;
+    font-size: 20px;
+}
+.FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    overflow: auto;
+    flex-direction: row;
+}
+
+.FlexContainer div {
+    width: 750px;
+    height: 275px;
+   
+    
+}
+#btn{
+    background-color: rgb(72, 78, 80);
+    color: #ffff;
+    border-radius: 2px;
+    /* border:rgb(72, 78, 80) ; */
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+}
+input{
+    height: 25px;
+    border-radius: 2px;
+}
