@@ -28,7 +28,7 @@ btn.addEventListener('click', function(){
                 }
                 }
                 
-          } else{
+            } else{
             if ( nombreDeviner < number){
                 output.innerHTML = "le nombre que vous avez choisir est plus petit"
             }
@@ -37,7 +37,7 @@ btn.addEventListener('click', function(){
             }
         
           }
-    }else {
+        }else {
         output.innerHTML = "c'est rate"
         attemptOutPut.innerHTML= "0-tentative"
     }
