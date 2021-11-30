@@ -42,11 +42,6 @@ btn.addEventListener('click', function(){
         attemptOutPut.innerHTML= "0-tentative"
     }
 
-
-
-
-
-  
   
 
 });
