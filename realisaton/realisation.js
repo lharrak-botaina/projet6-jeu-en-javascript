@@ -14,7 +14,8 @@ var attempt;
  attempt =10;
  // traitement 
 
-btn.addEventListener('click', function(){
+ function play(){
+     console.log("test");
     attempt--;
     nombreDeviner = document.getElementById('userInput').value;
     if(attempt>0){
@@ -33,7 +34,8 @@ btn.addEventListener('click', function(){
                 output.innerHTML = "le nombre que vous avez choisir est plus petit"
             }
             else {
-              output.innerHTML = "le nombre que vous avez choisir est plus grand"
+              
+                output.innerHTML = "le nombre que vous avez choisir est plus grand"
             }
         
           }
@@ -44,6 +46,6 @@ btn.addEventListener('click', function(){
 
   
 
-});
+};
 
     
