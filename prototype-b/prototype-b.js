@@ -12,7 +12,7 @@ var nombreDeviner;
  
  // traitement 
 
-btn.addEventListener('click', function(){
+ function play(){
   
   nombreDeviner = document.getElementById('userInput').value;
   if (nombreDeviner == number){
@@ -27,7 +27,7 @@ btn.addEventListener('click', function(){
 
   } 
 
-});
+};
 
 
 
